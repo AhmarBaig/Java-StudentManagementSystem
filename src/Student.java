@@ -27,9 +27,7 @@ public class Student {
     }
 
     public String toString() {
-        String studentDetails = "Student Name: " + this.name + "\nAverage Grade: " + averageGrade() + " / 100";
-        // String studentCourses = "Courses: " + 
-        
+        String studentDetails = "Student Name: " + this.name + "\nAverage Grade: " + averageGrade() + " / 100";        
         return studentDetails;
     }
 
